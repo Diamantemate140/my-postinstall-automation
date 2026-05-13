@@ -1,7 +1,6 @@
 mkdir post-install 
 cd post-install
-yes | sudo pacman -Syu
-yes | sudo pacman -S base-devel
+yes | sudo pacman -Syu base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay 
 yes | makepkg -si
