@@ -8,5 +8,6 @@ yes | yay -Syu
 cd .. 
 yes | sudo pacman -S firefox htop steam code krita flatpak chromium discover kamoso dolphin kdeconnect konsole android-tools scrcpy waydroid 7zip ark hyfetch fastfetch libreoffice-fresh blender prismlauncher python drkonqi vlc ktorrent obsidian
 yes | yay -S hydra-launcher-bin fluffychat-bin r2modman-bin rpi-imager-latest
+flatpak install flathub io.github.nozwock.Packet
 cd ..
 sudo -fr ~/post-install
