@@ -1,0 +1,10 @@
+[Unit]
+Description=Reload USB on resume
+After=suspend.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'modprobe -r usbhid && modprobe usbhid'
+
+[Install]
+WantedBy=suspend.target
